@@ -1,6 +1,6 @@
-# Magic Mirror
+# MagicMirror
 
-Magic Mirror is a Streamlit application that uses the Ollama API to analyze a live camera feed and describe the person in the picture. The app captures images from a webcam, sends them to Ollama for analysis, and displays the results in a user-friendly interface.
+MagicMirror is a Streamlit application that uses the Ollama API to analyze a live camera feed and describe the person in the picture. The app captures images from a webcam, sends them to Ollama for analysis, and displays the results in a user-friendly interface.
 
 ## Features
 
