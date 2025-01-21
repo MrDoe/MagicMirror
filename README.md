@@ -38,6 +38,7 @@ MagicMirror is a Streamlit application that uses the Ollama API to analyze a liv
     ```
 
     Windows:<br>
+    <br>
     Download and install Ollama from [https://ollama.com/download/OllamaSetup.exe](https://ollama.com/download/OllamaSetup.exe)
     <br>
 
