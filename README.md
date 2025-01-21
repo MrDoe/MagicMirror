@@ -53,7 +53,7 @@ MagicMirror is a Streamlit application that uses the Ollama API to analyze a liv
 
 ## Usage
 
-1. Run the Streamlit application:
+1. Run the Streamlit application on the command line:
 
     ```sh
     streamlit run magicmirror.py
