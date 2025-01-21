@@ -10,25 +10,44 @@ Magic Mirror is a Streamlit application that uses the Ollama API to analyze a li
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
     ```sh
     git clone https://github.com/yourusername/magicmirror.git
     cd magicmirror
     ```
 
-2. Create a virtual environment and activate it:
+2. **Create a virtual environment and activate it:**
 
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
+3. **Install the required dependencies:**
 
     ```sh
     pip install -r requirements.txt
     ```
+
+4. **Install Ollama:**
+    
+    Linux:
+    ```sh
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+
+    Windows:
+    Download and install Ollama from [https://ollama.com/download/OllamaSetup.exe](https://ollama.com/download/OllamaSetup.exe)
+    <br>
+
+5. **Pull LLAMA 3.2 Vision model:**  
+
+    To install the llama3.2-vision model, run
+    ```sh
+    ollama pull llama3.2-vision
+    ```
+    on the respective command line (e. g. bash, powershell).
 
 ## Usage
 
@@ -40,11 +59,7 @@ Magic Mirror is a Streamlit application that uses the Ollama API to analyze a li
 
 2. Open your web browser and go to `http://localhost:8501`.
 
-3. Use the interface to start the camera, capture an image, and analyze it.
-
-## File Structure
-
-- `magicmirror.py`: The main application script.
+3. Click on the 'Describe Me!' button and wait for the result.
 
 ## License
 
