@@ -59,9 +59,7 @@ MagicMirror is a Streamlit application that uses the Ollama API to analyze a liv
     streamlit run magicmirror.py
     ```
 
-2. Open your web browser and go to `http://localhost:8501`.
-
-3. Click on the 'Describe Me!' button and wait for the result.
+2. Click on the 'Describe Me!' button and wait for the result.
 
 ## License
 
